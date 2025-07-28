@@ -1,4 +1,15 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 17px 0;
+}
+
+.user {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 13px 0;
+  }
 }

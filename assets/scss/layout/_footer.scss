@@ -1,4 +1,41 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+.footer {
+    background-color: $neutral-100;
+}
+
+.bottom_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid $neutral-300;
+}
+
+.bottom_nav_menu{
+    display: flex;
+}
+.bottom_nav_item{
+    padding: 12px 0;
+    margin-left: 40px;
+}
+.bottom_nav_link{
+    font-weight: 500;
+}
+
+.footer_context{
+    text-align: center;
+    font-size: 14px;
+    color: $neutral-600;
+}
+
+@media (max-width: 768px) {
+    .bottom_nav{
+ flex-direction: column;
+ align-items: flex-start;
+}
+.bottom_nav_item{
+    padding: 12px 0;
+    margin-left: 0;   
+}
+.bottom_nav_menu{
+    flex-direction: column;
+}
 }

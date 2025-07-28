@@ -1,0 +1,36 @@
+.pagination_section{
+    display: flex;
+    justify-content: center;
+}
+.pagination_menu{
+    display: flex;
+}
+.pagination_item{
+    padding: 8px 15px;
+    margin-right: 8px;
+}
+
+.pagination_item_num{
+     margin-right: 8px;
+}
+.pagination_item_num::first-of-type{
+    
+    margin-left: 12px;
+}
+.pagination_item_num::last-of-type{
+    margin-right: 12px;
+
+}
+
+.pagination_item_active{
+    background-color: $primary-300;
+}
+
+.pagination_item_disable{
+    color:$neutral-500;
+
+}
+
+.pagination_item:hover{
+   background-color: $neutral-100;
+}
