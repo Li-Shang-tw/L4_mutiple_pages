@@ -1,25 +1,23 @@
-.nav_menu_mobile{
-    display: none;
+.nav_menu_mobile {
+  display: none;
 }
 
 @media (max-width: 768px) {
-    .nav{
-        flex-wrap: wrap;
-    }
-    .nav_menu_mobile{
+  .nav {
+    flex-wrap: wrap;
+  }
+  .nav_menu_mobile {
     display: flex;
     width: 100%;
-}
-.nav_item_mobile{
+  }
+  .nav_item_mobile {
     width: 50%;
     text-align: center;
-    font-weight: 500; 
-    background-color: $primary-100; 
+    font-weight: 500;
+    background-color: $primary-100;
     padding: 12px 0;
-}
-.nav_item_mobile_active{
-   
-    background-color: $primary-200; 
-}
-
+  }
+  .nav_item_mobile_active {
+    background-color: $primary-200;
+  }
 }

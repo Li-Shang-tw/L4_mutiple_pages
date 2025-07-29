@@ -5,14 +5,14 @@
   background-size: cover;
   padding: 289px 0 288px 0;
 }
-.hero_container{
+.hero_container {
   width: 80%;
   margin: 0 auto;
 }
 
-.hero_subtitle{
+.hero_subtitle {
   font-size: 28px;
-   line-height: 120%;
+  line-height: 120%;
   font-weight: bold;
 }
 /*-----content_section_1------*/
@@ -28,110 +28,106 @@
   font-weight: bold;
   margin-bottom: 4px;
 }
-.card_price{
+.card_price {
   font-weight: 500;
 }
 
 /*-----best sell----*/
-.best_sell_item{
-  position: relative;;
+.best_sell_item {
+  position: relative;
 }
-.best_sell_item_label{
+.best_sell_item_label {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 14px;
   font-weight: 500;
-  color:$primary-400;
+  color: $primary-400;
   background-color: $primary-100;
   padding: 8px 12px;
-  
 }
 /*-----sales_banner------*/
-.sales_banner_section{
+.sales_banner_section {
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week3-4/banner-co-branded.png");
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 100px 0;
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
-.sale_content{
-
+.sale_content {
   position: relative;
 }
-.sale_content_title{
+.sale_content_title {
   display: inline-flex;
   flex-wrap: wrap;
   margin: o auto;
 }
-.sale_content_title_text{
-  color:white;
+.sale_content_title_text {
+  color: white;
 }
-.sale_content_title_mark{
-  color:$primary-300;
+.sale_content_title_mark {
+  color: $primary-300;
   padding: 0 24px;
 }
-.sale_content_subtitle{
-  color:white;
+.sale_content_subtitle {
+  color: white;
 }
-.sale_content_text{
-  color:$neutral-500;
+.sale_content_text {
+  color: $neutral-500;
   font-weight: 400;
-  font-size: 20px;} 
-
-.star_img{
-  position: absolute;
-  top:-40px;
-  left: -76px;
- 
+  font-size: 20px;
 }
-.sparkle_img{
+
+.star_img {
+  position: absolute;
+  top: -40px;
+  left: -76px;
+}
+.sparkle_img {
   float: right;
   margin-right: -30px;
 }
 /*-----series------*/
 
-.series_item{
+.series_item {
   position: relative;
 }
-.series_overlay{
-position: absolute;
-top:0;
-left: 0;
+.series_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  
 }
-.series_context{
-color:white;
+.series_context {
+  color: white;
   font-weight: 700;
   text-align: center;
 }
-.series_title{
+.series_title {
   font-size: 28px;
 }
-.series_subtitle{
+.series_subtitle {
   font-size: 24px;
 }
-.series_item{
+.series_item {
   margin-bottom: 12px;
 }
 
 /*------inspiration----*/
 .inspiration-row {
-margin: -4px;
+  margin: -4px;
 }
 
 .inspiration-col {
- padding: 4px;
+  padding: 4px;
 }
 
 @media (max-width: 768px) {
@@ -141,64 +137,60 @@ margin: -4px;
     background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week3-4/banner-sm.png");
     padding: 155px 0;
   }
-  .hero_subtitle{
-  font-size: 20px;
-  
-}
-.hero_container{
-  width: 100%;
+  .hero_subtitle {
+    font-size: 20px;
+  }
+  .hero_container {
+    width: 100%;
     padding: 0 24px;
-}
+  }
   /*-----content_section_1------*/
   .card {
     margin-bottom: 24px;
   }
   .card_title {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-/*----best sell-----*/
-.best_sell_list{
-  overflow: scroll;
-  display: flex;
-  flex-wrap: nowrap;
-}
-.best_sell_col{
-  width: unset;
-  .best_sell_item_img{
-min-width: 300px;
+    font-size: 16px;
+    margin-bottom: 0;
   }
-}
+
+  /*----best sell-----*/
+  .best_sell_list {
+    overflow: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .best_sell_col {
+    width: unset;
+    .best_sell_item_img {
+      min-width: 300px;
+    }
+  }
   /*-----sales_banner------*/
- .sales_banner_section{
-  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week3-4/banner-co-branded-sm.png");
-  padding: 64px 0;
-}
- 
- 
-  .sale_content_title_text,.sale_content_title_mark{
-  width:100%;
-}
-
-/*------inspiration----*/
-
-
-.inspiration-col,.inspiration-row {
- width: unset;
-}
-
-.inspiration-row{
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: scroll;
-  
-}
-.inspiration-col{
-  img {
-    max-width: 300px;
+  .sales_banner_section {
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-week3-4/banner-co-branded-sm.png");
+    padding: 64px 0;
   }
-}
 
+  .sale_content_title_text,
+  .sale_content_title_mark {
+    width: 100%;
+  }
 
+  /*------inspiration----*/
+
+  .inspiration-col,
+  .inspiration-row {
+    width: unset;
+  }
+
+  .inspiration-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+  .inspiration-col {
+    img {
+      max-width: 300px;
+    }
+  }
 }

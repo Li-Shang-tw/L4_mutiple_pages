@@ -412,11 +412,10 @@
   padding-bottom: 4px;
 }
 
-.py-5{
+.py-5 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 
 /* 8px */
 .mx-8 {
@@ -617,32 +616,32 @@
   padding: 0 12px;
   width: calc(100% / 12 * 2);
 }
-.col-3{
-   padding: 0 12px;
+.col-3 {
+  padding: 0 12px;
   width: calc(100% / 12 * 3);
 }
-.col-4{
-   padding: 0 12px;
+.col-4 {
+  padding: 0 12px;
   width: calc(100% / 12 * 4);
 }
 .col-5 {
-   padding: 0 12px;
+  padding: 0 12px;
   width: calc(100% / 12 * 5);
 }
 .col-6 {
   padding: 0 12px;
-  width: calc(100% / 12 * 6);  
+  width: calc(100% / 12 * 6);
 }
 .col-7 {
   padding: 0 12px;
-  width: calc(100% / 12 * 7);  
+  width: calc(100% / 12 * 7);
 }
 
 .col-10 {
   padding: 0 12px;
   width: calc(100% / 12 * 10);
 }
-.col-12{
+.col-12 {
   padding: 0 12px;
   width: calc(100% / 12 * 12);
 }
@@ -657,31 +656,25 @@
   line-height: 1.2;
 }
 
-
-
 /*----btn----*/
-.btn{
- border-radius: 5px;
+.btn {
+  border-radius: 5px;
   padding: 12px 24px;
-    display: inline-block;
-
+  display: inline-block;
 }
 
-.btn_black{
+.btn_black {
   background-color: $neutral-900;
-  color:white; 
-
+  color: white;
 }
 .btn_green {
-    background-color: $primary-300;
+  background-color: $primary-300;
 }
 .btn_green:hover {
-    color: $primary-500;
+  color: $primary-500;
 }
-.btn_black:hover{
+.btn_black:hover {
   background-color: $neutral-700;
-  
-
 }
 .coner_border {
   border-radius: 10px;
@@ -693,7 +686,7 @@
   .row {
     margin: 0 -6px;
   }
-  
+
   .col-md-2 {
     padding: 0 6px;
     width: calc(100% / 12 * 2);
@@ -780,8 +773,8 @@
     padding-top: 4px;
     padding-bottom: 4px;
   }
-  
-  .py-md-5_5{    
+
+  .py-md-5_5 {
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -1030,11 +1023,10 @@
     padding-top: 32px;
     padding-bottom: 32px;
   }
-  .py-md-40{
-     padding-top: 40px;
+  .py-md-40 {
+    padding-top: 40px;
     padding-bottom: 40px;
   }
-
 
   /* 40px */
   .m-md-40 {
@@ -1081,10 +1073,8 @@
     padding-right: 40px;
   }
 
-  .btn{
- border-radius: 5px;
-  padding: 8px 16px;
+  .btn {
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
 }
-}
-
-

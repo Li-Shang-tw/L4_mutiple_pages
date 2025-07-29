@@ -1,87 +1,83 @@
-.favorite_row{
-    justify-content: center;
+.favorite_row {
+  justify-content: center;
 }
 
-.favorite_title{
-    font-size: 28px;
-      line-height: 120%;
+.favorite_title {
+  font-size: 28px;
+  line-height: 120%;
   font-weight: bold;
   text-align: center;
   margin-bottom: 35px;
 }
-.check_icon{
-    color:$primary-500;
-             
- }
-
- .call_out{
-    background-color: $primary-100;
-    padding: 16px;
-    color:$primary-400;
-    font-weight: 500;
- }
- .truck_icon{
-    padding-right: 12px;
- }
- .br-md{
-    display: none;
- }
- /*---product_item---*/
- .product_item{
-    display: flex;
-    padding-bottom: 32px;
-    border-bottom: 2px solid $neutral-300;
-    margin-bottom: 32px;
- }
- .product_item_content{
-    flex:1;
- }
-.product_img{
-    width: 120px;
-    margin-right: 16px;
-}
- .info_value{
-    font-weight: 500;
-    padding-left: 12px;
- }
- .product_item_title{
-    margin-bottom: 8px;
- }
- 
-.product_item_info{
-margin-bottom: 8px;
-}
-.product_item_info_bold{
-    margin-bottom: 8px;
-    font-weight: 700;
-    text-align: right;
-
+.check_icon {
+  color: $primary-500;
 }
 
-.btn_block{
-    width: 100%;
-   display: flex;
-   justify-content: center;
+.call_out {
+  background-color: $primary-100;
+  padding: 16px;
+  color: $primary-400;
+  font-weight: 500;
+}
+.truck_icon {
+  padding-right: 12px;
+}
+.br-md {
+  display: none;
+}
+/*---product_item---*/
+.product_item {
+  display: flex;
+  padding-bottom: 32px;
+  border-bottom: 2px solid $neutral-300;
+  margin-bottom: 32px;
+}
+.product_item_content {
+  flex: 1;
+}
+.product_img {
+  width: 120px;
+  margin-right: 16px;
+}
+.info_value {
+  font-weight: 500;
+  padding-left: 12px;
+}
+.product_item_title {
+  margin-bottom: 8px;
+}
+
+.product_item_info {
+  margin-bottom: 8px;
+}
+.product_item_info_bold {
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.btn_block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 768px) {
-    .favorite_title{
-    font-size: 24px; 
-      margin-bottom: 24px;
-  
-}
-.br-md{
-    display: inline;
-}
-.call_out_context{
-    display:flex;
-    align-items: center;
-}
- /*---product_item---*/
- .product_item{   
+  .favorite_title {
+    font-size: 24px;
     margin-bottom: 24px;
- }
- .product_item_info_bold{   
+  }
+  .br-md {
+    display: inline;
+  }
+  .call_out_context {
+    display: flex;
+    align-items: center;
+  }
+  /*---product_item---*/
+  .product_item {
+    margin-bottom: 24px;
+  }
+  .product_item_info_bold {
     text-align: left;
-
-}
+  }
 }
