@@ -10,6 +10,9 @@
   padding: 12px 0;
   margin-bottom: 16px;
 }
+.active {
+  color: $primary-400;
+}
 .product_list_row {
   display: flex;
   flex-wrap: wrap;
