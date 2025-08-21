@@ -32,3 +32,20 @@
 .pagination_item:hover {
   background-color: $neutral-100;
 }
+
+@media (max-width: 768px) {
+  .pagination_item {
+    padding: 6px 12px;
+    margin-right: 6px;
+  }
+
+  .pagination_item_num {
+    margin-right: 6px;
+  }
+  .pagination_item_num::first-of-type {
+    margin-left: 10px;
+  }
+  .pagination_item_num::last-of-type {
+    margin-right: 10px;
+  }
+}
